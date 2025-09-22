@@ -1,3 +1,5 @@
+package entidades;
+
 import lombok.*;
 
 @AllArgsConstructor
@@ -11,4 +13,5 @@ public class Imagen {
     private String denominacion;
     private long id;
     private Articulo articulo;
+    private String url;
 }
